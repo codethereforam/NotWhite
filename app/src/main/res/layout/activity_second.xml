@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout1"
+    tools:context="com.yay.notwhite.SecondActivity">
+
+    <Button
+        android:id="@+id/bt_restart"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:text="重来"
+        android:textSize="30pt"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_weight="3"
+        android:text="败了"
+        android:textSize="50pt"
+        android:gravity="center" />
+
+</LinearLayout>
